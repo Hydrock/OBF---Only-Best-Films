@@ -11,23 +11,6 @@ class MoviesCard extends Component {
         return (
             <div class="movie-card" style={{backgroundImage: 'url(' + this.props.imgUrl + ')'}}> 
                 <div class="color-overlay">
-                    <div class="movie-share">
-                            <a class="movie-share__icon" href="#">
-                                <i class="material-icons">
-                                    {String.fromCharCode(59517)}
-                                </i>
-                            </a>
-                            <a class="movie-share__icon" href="#">
-                                <i class="material-icons">
-                                    {String.fromCharCode(57939)}
-                                </i>
-                            </a>
-                            <a class="movie-share__icon" href="#">
-                                <i class="material-icons">
-                                    {String.fromCharCode(59405)}
-                                </i>
-                            </a>
-                        </div>
                     <div class="movie-content">
                         <div class="movie-header">
                             <h1 class="movie-title">
@@ -40,8 +23,7 @@ class MoviesCard extends Component {
                         <p class="movie-desc">
                             {this.props.movieDesc}
                         </p>
-                        <a class="btn btn-outline" href="#">Watch Trailer</a>
-
+                        <a class="btn btn-outline" target='_blank' href={this.props.openLink}>Watch Trailer</a>
                     </div>
                 </div>
             </div>
