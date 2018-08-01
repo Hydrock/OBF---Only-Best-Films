@@ -1,0 +1,28 @@
+{
+    "movies": [
+        {
+            "id": 0,
+            "urlName": "blade_runner",
+            "name": "Blade Runner",
+            "urlImg": "blade_runner"
+        },
+        {
+            "id": 1,
+            "urlName": "back_to_the_uture",
+            "name": "Back to the Future",
+            "urlImg": "back_to_the_uture"
+        },
+        {
+            "id": 2,
+            "urlName": "akira",
+            "name": "Akira",
+            "urlImg": "akira"
+        },
+        {
+            "id": 3,
+            "urlName": "super",
+            "name": "Super",
+            "urlImg": "super"
+        }
+    ]
+}
