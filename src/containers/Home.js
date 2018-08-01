@@ -12,6 +12,7 @@
 import AkiraImg from '../../public/static/images/akira-scope-gunshooting.jpg';
 import BladeRunnerImg from '../../public/static/images/blade-runner.jpg';
 import BTTFImg from '../../public/static/images/Back-To-The-Future-Movie-Facts-Trivia.jpg';
+import superImg from '../../public/static/images/super.jpg';
 
 import React from 'react'
 import { withSiteData } from 'react-static'
@@ -44,6 +45,13 @@ export default withSiteData(() => (
         movieDesc='A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.'
         openLink='https://www.youtube.com/watch?v=ea_5TJus7pI'
         imgUrl={ AkiraImg }
+      />
+      <MoviesCard
+        movieTitle='Super'
+        movieInfo='Super (2010)'
+        movieDesc='After his wife falls under the influence of a drug dealer, an everyday guy transforms himself into Crimson Bolt, a superhero with the best intentions, but lacking in heroic skills.'
+        openLink='https://www.imdb.com/title/tt1512235/'
+        imgUrl={ superImg }
       />
     </div>
   </MoviesList>
